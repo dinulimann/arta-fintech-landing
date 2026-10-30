@@ -2,6 +2,8 @@
 
 [![ci](https://github.com/dinulimann/arta-fintech-landing/actions/workflows/ci.yml/badge.svg)](https://github.com/dinulimann/arta-fintech-landing/actions/workflows/ci.yml)
 
+**Live:** https://arta-fintech-landing.vercel.app
+
 ![Arta landing page](docs/screenshot.jpg)
 
 A dark, cinematic marketing site for **Arta**, a fictional personal-finance app for Indonesia: spending insights, savings goals, split bills over QRIS and a debit card. It is a design and front-end portfolio piece. Arta is not a bank or a licensed financial service, and the names, reviews and figures are made up.
@@ -36,4 +38,4 @@ npm run build        # type-check and build to dist/
 npx playwright install chromium && npm run test:e2e
 ```
 
-`dist/` is a static site and can be hosted anywhere.
+`dist/` is a static site; the live version is deployed on Vercel.
